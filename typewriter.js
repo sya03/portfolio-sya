@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const typewriterText = document.querySelector('.typewritter-text');
-    const words = ["Web Designer", "UI/UX Specialist", "developer ","Digital Creator", "Visual Designer","Interactive Designer","Frontend Developer"];
+    const words = ["Web Designer","Digital Creator", "Visual Designer","Interactive Designer","Frontend Developer"];
     let wordIndex = 0;
     let letterIndex = 0;
     let currentWord = '';
@@ -31,4 +31,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     type();
+
 });
